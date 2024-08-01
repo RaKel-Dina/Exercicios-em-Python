@@ -8,8 +8,3 @@ if (r1 + r2) > r3:
 else:
     print('Não pode formar triângulo.')
 print()
-
-
-
-#print(f'{reta_maior} é a reta maior.')
-
