@@ -8,9 +8,9 @@ mensalidade = (casa/vezes)
 porc = (mensalidade/salario)*100
 if porc <= 30:
     print(f'PARABÉNS! Seu empréstimo bancário foi aprovado!')
-    print(f'Você pagará R${mensalidade:.2f} por mês, por {vezes/12:.2f} anos')
+    print(f'Você pagará R${mensalidade:.2f} por mês, por {int(vezes/12)} anos')
 elif porc > 30:
-    print(f'REPROVADO: O salário excede 30% das prestações mensais que seriam de R${mensalidade}')
+    print(f'REPROVADO: As prestações mensais no valor de R${mensalidade:.2f} excederão 30% do seu salário.')
 
 
 
