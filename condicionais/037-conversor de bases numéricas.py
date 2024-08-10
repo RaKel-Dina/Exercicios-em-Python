@@ -8,4 +8,4 @@ if base == 1:
 elif base == 2:
     print(f'{num} em octal: é: {oct(num)[2:]}')
 elif base == 3:
-    print(f'{num} em hexadecinal é: {hex(num)[2:]}')
+    print(f'{num} em hexadecimal é: {hex(num)[2:]}')
